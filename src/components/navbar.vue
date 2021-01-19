@@ -2,7 +2,13 @@
   <nav id="navbar">
     <div class="container">
       <img src="../assets/logo-recycle.svg" alt="logo" />
-      <div class="search-wrapper"></div>
+      <div class="search-wrapper">
+        <div class="location">
+          <img src="../assets/jam_map-marker-f.svg" />
+          <p>Jabodetabek</p>
+        </div>
+        <input type="text" placeholder="Cari apa aja ada..." />
+      </div>
       <div class="right-menu">
         <img class="img-bell" src="../assets/bell.svg" alt="notification" />
         <button>
@@ -43,6 +49,14 @@ export default {};
   border: 1px solid #e5e5e5;
   border-radius: 8px;
   height: 40px;
+  display: flex;
+}
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 16px;
+  border-radius: 8px;
 }
 .right-menu {
   display: flex;
@@ -67,5 +81,22 @@ button {
 
 button img {
   margin-right: 12px;
+}
+.location {
+  width: 200px;
+  height: 38px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-right: 1px solid #e5e5e5;
+}
+.location p {
+  margin: 0 8px;
+}
+.location img {
+  margin-left: 16px;
 }
 </style>
