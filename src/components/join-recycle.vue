@@ -29,7 +29,7 @@ export default {
 #join {
   width: 100%;
   display: flex;
-  margin: 32px 0;
+  margin: 40px 0;
   align-items: center;
 }
 img.kv-banner {

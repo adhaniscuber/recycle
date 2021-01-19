@@ -6,6 +6,7 @@
       <Favorites />
       <Join />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Navbar from "@/components/navbar.vue";
 import Categories from "../components/categories.vue";
 import Join from "@/components/join-recycle.vue";
 import Favorites from "../components/favorites.vue";
+import Footer from "../components/footer.vue";
 
 export default {
   name: "Home",
@@ -23,6 +25,7 @@ export default {
     Categories,
     Join,
     Favorites,
+    Footer,
   },
 };
 </script>
